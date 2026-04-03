@@ -1,8 +1,19 @@
 {
   "devDependencies": {
+    "gh-pages": "^6.3.0",
     "postcss": "^8.5.8",
     "postcss-pxtorem": "^6.1.0",
     "sass": "^1.99.0",
     "vite": "^8.0.3"
-  }
+  },
+    "homepage": "https://xstylexD.github.io//Frontend-Mentor/faq-accordion-main",
+
+
+  "scripts": {
+  "dev": "vite",
+  "build": "vite build",
+  "preview": "vite preview",
+  "predeploy": "npm run build",
+  "deploy": "gh-pages -d dist"
+}
 }
